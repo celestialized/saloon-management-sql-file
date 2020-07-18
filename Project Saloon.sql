@@ -60,12 +60,12 @@ create table bills(
  	foreign key (customerID) references customer (customerID) on delete cascade
  	);
 
- 	insert into customer values(1001,'Siam','Bhola','01786454360',21,7000);
-	insert into customer values(1002,'Najua','Cumilla','01631591200',20,3500);
-	insert into customer values(1003,'Shaykat','Dhaka','01771230965',22,7600);
+ 	insert into customer values(1001,'Siam','Bhola','01757904360',21,7000);
+	insert into customer values(1002,'Najua','Cumilla','01638223200',20,3500);
+	insert into customer values(1003,'Shaykat','Dhaka','01771654965',22,7600);
 	insert into customer values(1004,'Billal','Chattogram','01788385530',23,6090);
-	insert into customer values(1005,'Borsha','Gazipur','01920237399',23,10050);
-	insert into customer values(1006,'Raka','Feni','01881778103',24,1500);
+	insert into customer values(1005,'Borsha','Gazipur','01920231299',23,10050);
+	insert into customer values(1006,'Raka','Feni','01889876103',24,1500);
 	insert into customer values(1007,'Zayan','London','442072343456',32,12360);
 	insert into customer values(1008,'Jackson','Italy','00393282853',36,5000);
 	insert into customer values(1009,'Hilton','Paris','00331400008',44,9990);
